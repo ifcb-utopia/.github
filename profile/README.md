@@ -6,7 +6,7 @@ This is a project by researchers at the University of Washington (Seattle, USA).
 Currently you can find several repos, described below, with code that may be useful for processing IFCB data and exploring the use of CNNs for IFCB image classifcation. Please note that we have ongoing development of these resources. 
 
 ## End-to-end workflow
-We are working towards a fully automated end-to-end processing of raw-to-classified IFCB data specifically for broad taxonomic classification of open-ocean data. You can view the document with instructions for the latest version of the step-by-step workflow [here](https://docs.google.com/document/d/1v78DhgiWB4M0M7qYaxqjW88OlVZ1Z9LHt92v0wSv8gg/edit?usp=sharing).
+We are working to improve and refine our end-to-end processing of IFCB data to go from raw to classified, specifically for broad taxonomic classification of open-ocean data. You can view the document with instructions for the latest version of the step-by-step workflow [here](https://docs.google.com/document/d/1v78DhgiWB4M0M7qYaxqjW88OlVZ1Z9LHt92v0wSv8gg/edit?usp=sharing).
 
 ## Repositories
 ### ml-workflow
