@@ -1,17 +1,20 @@
 # User-friendly Tools for Oceanic Plankton Image Analysis (UTOPIA)
 
 ## About 
-This is a project by researchers at the University of Washington (Seattle, USA). We aim to provide a community space for users of the Imaging FlowCytobot (IFCB) instrument to collaborate and share code and ideas for machine learning approaches to IFCB image classification.
+This is a project by researchers at the University of Washington (Seattle, USA). We aim to provide a community space for users of the Imaging FlowCytobot (IFCB) instrument to collaborate and share code and ideas for machine learning approaches to IFCB image classification. The documentation site for this project is located [here](https://ifcb-utopia.github.io/).
 
 Currently you can find several repos, described below, with code that may be useful for processing IFCB data and exploring the use of CNNs for IFCB image classifcation. Please note that we have ongoing development of these resources. 
-
-## Plankton Image Validation Optimization Toolkit (PIVOT)
-[PIVOT](https://github.com/chandlerault/PIVOT) is a Streamlit app that was developed by a team from the University of Washington's Data Science Masters program. It provides a solution for efficient evaluation by a user of CNN-labeled plankton images, which is useful both for assessing the accuracy of a CNN deployed on new datasets, and for acquiring more validated labeled images for use in CNN model tuning. Currently, PIVOT interfaces with Microsoft AzureSQL database and Azure blob storage.
 
 ## End-to-end workflow
 We are working to improve and refine our end-to-end processing of IFCB data to go from raw to classified, specifically for broad taxonomic classification of open-ocean data. You can view the document with instructions for the latest version of the step-by-step workflow [here](https://docs.google.com/document/d/1v78DhgiWB4M0M7qYaxqjW88OlVZ1Z9LHt92v0wSv8gg/edit?usp=sharing).
 
 ## Repositories
+### data-pipeline  
+Pipeline development, data processing tools, and user-friendly notebooks. 
+
+### PIVOT
+PIVOT, the Plankton Image Validation Optimization Toolkit, is a Streamlit app that was developed by a team from the University of Washington's Data Science Masters program. It provides a solution for efficient evaluation by a user of CNN-labeled plankton images, which is useful both for assessing the accuracy of a CNN deployed on new datasets, and for acquiring more validated labeled images for use in CNN model tuning. Currently, PIVOT interfaces with Microsoft AzureSQL database and Azure blob storage.
+
 ### ml-workflow
 Train CNNs to classify IFCB images into broad taxonomic groups
 
